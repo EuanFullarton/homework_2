@@ -45,3 +45,7 @@ def number_to_short_month_name(month)
   when 9 then "Sep"
   end
 end
+
+def volume_of_cube(length)
+  return length ** 2
+end
