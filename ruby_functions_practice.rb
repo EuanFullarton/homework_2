@@ -49,3 +49,10 @@ end
 def volume_of_cube(length)
   return length ** 2
 end
+
+def volume_of_sphere(radius)
+  four_thirds = 4.0 / 3.0
+  pi = Math::PI
+  r_cubed = (radius ** 3)
+  return (four_thirds * pi * r_cubed).round(0)
+end
